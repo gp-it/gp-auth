@@ -1,0 +1,55 @@
+import { Story, Preview, Meta, Props, html } from '@open-wc/demoing-storybook';
+
+import '../gp-auth.js';
+
+<Meta 
+  title="GpAuth"
+  parameters={{
+    component: "gp-auth",
+    options: { selectedPanel: "storybookjs/knobs/panel" }
+  }}
+/>
+
+# GpAuth
+
+A component for...
+
+## Features:
+
+- a
+- b
+- ...
+
+## How to use
+
+### Installation
+
+```bash
+yarn add gp-auth
+```
+
+```js
+import 'gp-auth/gp-auth.js';
+```
+
+<Preview withToolbar>
+  <Story name="Simple">
+    {html`
+      <gp-auth></gp-auth>
+    `}
+  </Story>
+</Preview>
+
+## API
+
+<Props of="gp-auth" />
+
+## Variations
+
+###### Custom Title
+
+<Story name="Custom Title">
+  {html`
+    <gp-auth .title=${'Hello World'}></gp-auth>
+  `}
+</Story>
