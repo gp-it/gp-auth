@@ -36,4 +36,13 @@ describe('GpAuth', () => {
 
     await expect(el).shadowDom.to.be.accessible();
   });
+
+  it('test perso', async() => {
+    const el = await fixture(html`
+      <gp-auth title="Test" counter="20"></gp-auth>
+    `)
+
+    expect(el.title).to.equal('Test')
+    expect(el.counter).to.equal(20)
+  })
 });

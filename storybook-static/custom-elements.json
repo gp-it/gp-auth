@@ -18,7 +18,12 @@
           "default": 0
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "name": "increment",
+          "description": "click sur le bouton"
+        }
+      ],
       "slots": [],
       "cssProperties": [
         {

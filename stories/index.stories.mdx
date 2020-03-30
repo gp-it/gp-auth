@@ -1,9 +1,11 @@
 import { Story, Preview, Meta, Props, html } from '@open-wc/demoing-storybook';
+import { withKnobs, withWebComponentsKnobs } from '@open-wc/demoing-storybook';
 
 import '../gp-auth.js';
 
-<Meta 
+<Meta
   title="GpAuth"
+  decorators={[withKnobs, withWebComponentsKnobs]}
   parameters={{
     component: "gp-auth",
     options: { selectedPanel: "storybookjs/knobs/panel" }

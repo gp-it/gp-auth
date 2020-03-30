@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "git-tag"
+  ],
+  "owner": "Geoffrey-Pliez",
+  "repo": "Auth",
+  "name": "Geoffrey-Pliez",
+  "email": "geoffrey.pliez@crem.be"
+}
