@@ -2,6 +2,21 @@
 
 #### ⚠️  Pushed to `master`
 
+- publish test 10 (geoffrey.pliez@crem.be)
+- retrait des fichiers inutilisés ([@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez))
+- update publish ([@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez))
+
+#### Authors: 2
+
+- [@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez)
+- Geoffrey-Pliez (geoffrey.pliez@crem.be)
+
+---
+
+# v0.0.10 (Tue Mar 31 2020)
+
+#### ⚠️  Pushed to `master`
+
 - retrait des fichiers inutilisés ([@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez))
 - update publish ([@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez))
 
