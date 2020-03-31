@@ -4,6 +4,12 @@
 
 ---
 
+# v0.0.7 (Tue Mar 31 2020)
+
+
+
+---
+
 # v0.0.6 (Tue Mar 31 2020)
 
 #### ⚠️  Pushed to `master`
