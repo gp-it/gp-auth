@@ -1,6 +1,6 @@
 {
   "name": "@gp-it/gp-auth",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "description": "Module d'authentification",
   "author": "Geoffrey Pliez",
   "license": "MIT",
