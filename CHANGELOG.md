@@ -1,3 +1,15 @@
+# v0.0.8 (Tue Mar 31 2020)
+
+#### ⚠️  Pushed to `master`
+
+- test public publish ([@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez))
+
+#### Authors: 1
+
+- [@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez)
+
+---
+
 # v0.0.7 (Tue Mar 31 2020)
 
 
