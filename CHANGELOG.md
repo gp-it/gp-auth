@@ -1,3 +1,15 @@
+# v0.0.10 (Tue Mar 31 2020)
+
+#### ⚠️  Pushed to `master`
+
+- update publish ([@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez))
+
+#### Authors: 1
+
+- [@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez)
+
+---
+
 # v0.0.9 (Tue Mar 31 2020)
 
 #### ⚠️  Pushed to `master`
