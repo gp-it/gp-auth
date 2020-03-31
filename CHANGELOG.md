@@ -2,6 +2,19 @@
 
 #### ⚠️  Pushed to `master`
 
+- Merge branch 'master' of https://github.com/Geoffrey-Pliez/Auth ([@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez))
+- update package ([@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez))
+
+#### Authors: 1
+
+- [@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez)
+
+---
+
+# v0.0.2 (Tue Mar 31 2020)
+
+#### ⚠️  Pushed to `master`
+
 - update package (geoffrey.pliez@crem.be)
 
 #### Authors: 1
