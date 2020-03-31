@@ -1,3 +1,15 @@
+# v0.0.5 (Tue Mar 31 2020)
+
+#### ⚠️  Pushed to `master`
+
+- modif npmpublish (geoffrey.pliez@crem.be)
+
+#### Authors: 1
+
+- Geoffrey-Pliez (geoffrey.pliez@crem.be)
+
+---
+
 # v0.0.2 (Tue Mar 31 2020)
 
 #### ⚠️  Pushed to `master`
