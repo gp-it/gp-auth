@@ -1,8 +1,8 @@
 {
-  "name": "gp-auth",
-  "version": "0.0.0",
-  "description": "Webcomponent gp-auth following open-wc recommendations",
-  "author": "gp-auth",
+  "name": "@gp/gp-auth",
+  "version": "0.0.1",
+  "description": "Module d'authentification",
+  "author": "Geoffrey Pliez",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
@@ -53,5 +53,9 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "git://github.com/gp/Auth.git"
 }
