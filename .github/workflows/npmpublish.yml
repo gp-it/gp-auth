@@ -30,7 +30,7 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{b30908db-afa0-4e0c-8989-f3ff4866a82b}}
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
   publish-gpr:
     needs: build
@@ -44,4 +44,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{958b698bf0e1eaf2c5a30b558f7e3860a14938ef}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
