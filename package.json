@@ -53,9 +53,5 @@
       "prettier --write",
       "git add"
     ]
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "repository": "git://github.com/gp/Auth.git"
+  }
 }
