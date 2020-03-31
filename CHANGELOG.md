@@ -1,3 +1,15 @@
+# v0.0.6 (Tue Mar 31 2020)
+
+#### ⚠️  Pushed to `master`
+
+- update npmpublish ([@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez))
+
+#### Authors: 1
+
+- [@Geoffrey-Pliez](https://github.com/Geoffrey-Pliez)
+
+---
+
 # v0.0.5 (Tue Mar 31 2020)
 
 #### ⚠️  Pushed to `master`
