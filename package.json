@@ -1,6 +1,6 @@
 {
-  "name": "@gp/gp-auth",
-  "version": "0.0.1",
+  "name": "@gp-it/gp-auth",
+  "version": "0.0.10",
   "description": "Module d'authentification",
   "author": "Geoffrey Pliez",
   "license": "MIT",
@@ -20,20 +20,20 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
-    "lit-html": "^1.1.2",
-    "lit-element": "^2.2.1"
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1"
   },
   "devDependencies": {
-    "es-dev-server": "^1.23.0",
-    "eslint": "^6.1.0",
+    "@open-wc/demoing-storybook": "^1.0.1",
     "@open-wc/eslint-config": "^2.0.0",
     "@open-wc/prettier-config": "^0.1.10",
-    "husky": "^1.0.0",
-    "lint-staged": "^8.0.0",
-    "@open-wc/testing-karma": "^3.0.0",
-    "deepmerge": "^3.2.0",
     "@open-wc/testing": "^2.0.0",
-    "@open-wc/demoing-storybook": "^1.0.1"
+    "@open-wc/testing-karma": "^3.3.10",
+    "deepmerge": "^3.2.0",
+    "es-dev-server": "^1.23.0",
+    "eslint": "^6.1.0",
+    "husky": "^1.0.0",
+    "lint-staged": "^8.0.0"
   },
   "eslintConfig": {
     "extends": [
