@@ -1,5 +1,17 @@
 # v0.0.12 (Tue Mar 31 2020)
 
+#### ⚠️  Pushed to `master`
+
+- update package (geoffrey.pliez@crem.be)
+
+#### Authors: 1
+
+- Geoffrey-Pliez (geoffrey.pliez@crem.be)
+
+---
+
+# v0.0.12 (Tue Mar 31 2020)
+
 
 
 ---
