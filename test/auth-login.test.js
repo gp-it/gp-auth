@@ -1,4 +1,4 @@
-import { html, fixture, expect } from '@open-wc/testing';
+import { html, fixture, expect, oneEvent } from '@open-wc/testing';
 import '../src/auth-login';
 
 describe('auth-login', () => {
@@ -18,10 +18,9 @@ describe('auth-login', () => {
         <auth-login login="test@test.com" password="123456"></auth-login>
       `,
     );
-    // const login = false
-    // el.shadowRoot.querySelector('button').click()
-    // el.onLogin = () => console.log('onLogin')
-    // expect(login).toBe(true)
+    setTimeout(() => el.shadowRoot.querySelector('button').click());
+    const login = await oneEvent(el, 'login');
+    expect(login).instanceOf(CustomEvent);
   });
 
   it('passes the a11y audit', async () => {
