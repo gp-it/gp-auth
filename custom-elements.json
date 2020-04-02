@@ -1,30 +1,34 @@
 {
-  "version": 2,
+  "version": "experimental",
   "tags": [
     {
-      "name": "gp-auth",
-      "description": "A component with a title and an action counter",
-      "properties": [
+      "name": "auth-login",
+      "path": "./src\\auth-login.js",
+      "attributes": [
         {
-          "name": "title",
-          "type": "String",
-          "description": "The title of your component",
-          "default": "Hey there"
+          "name": "login",
+          "type": "string"
         },
         {
-          "name": "counter",
-          "type": "Number",
-          "description": "An action counter",
-          "default": 0
+          "name": "password",
+          "type": "string"
         }
       ],
-      "events": [],
-      "slots": [],
-      "cssProperties": [
+      "properties": [
         {
-          "name": "--gp-auth-text-color",
-          "description": "Main Text Color",
-          "type": "Color"
+          "name": "login",
+          "attribute": "login",
+          "type": "string"
+        },
+        {
+          "name": "password",
+          "attribute": "password",
+          "type": "string"
+        }
+      ],
+      "events": [
+        {
+          "name": "login"
         }
       ]
     }
