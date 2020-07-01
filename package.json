@@ -20,17 +20,19 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
+    "@firebase/app": "^0.6.7",
+    "@firebase/auth": "^0.14.7",
     "lit-element": "^2.3.1",
     "lit-html": "^1.2.1"
   },
   "devDependencies": {
-    "@open-wc/demoing-storybook": "^1.0.1",
-    "@open-wc/eslint-config": "^2.0.0",
+    "@open-wc/demoing-storybook": "^1.15.2",
+    "@open-wc/eslint-config": "^2.0.6",
     "@open-wc/prettier-config": "^0.1.10",
-    "@open-wc/testing": "^2.0.0",
-    "@open-wc/testing-karma": "^3.3.10",
+    "@open-wc/testing": "^2.5.18",
+    "@open-wc/testing-karma": "^3.4.6",
     "deepmerge": "^3.2.0",
-    "es-dev-server": "^1.23.0",
+    "es-dev-server": "^1.56.0",
     "eslint": "^6.1.0",
     "husky": "^1.0.0",
     "lint-staged": "^8.0.0"

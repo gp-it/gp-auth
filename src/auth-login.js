@@ -89,12 +89,7 @@ class AuthLogin extends LitElement {
 
   _login(e) {
     e.preventDefault();
-    this.dispatchEvent(new CustomEvent('login'));
-    // Auth.login(this.login, this.password, loginData => {
-    //   const notificator = this.shadowRoot.querySelector('paper-toast');
-    //   notificator.text = loginData.text;
-    //   notificator.open();
-    // });
+    this.dispatchEvent(new CustomEvent('login', { composed: true, bubbles: true }));
   }
 }
 customElements.define('auth-login', AuthLogin);

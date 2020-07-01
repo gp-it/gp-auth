@@ -1,1 +1,2 @@
-export { GpAuth } from './src/GpAuth.js';
+export * from './src/Auth';
+export * from './src/auth-login';

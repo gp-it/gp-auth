@@ -1,14 +1,17 @@
-// import { auth } from '../firebase';
+import firebase from '@firebase/app';
+import '@firebase/auth';
 
-// auth.onAuthStateChanged(() => {
-//   window.dispatchEvent(new CustomEvent('auth-change'))
-//   }
-// );
+export const auth = firebase.auth();
+
+auth.onAuthStateChanged(() => {
+  window.dispatchEvent(new CustomEvent('auth-change'));
+});
+
+window.addEventListener('login', e => console.log(e.target));
+
+window.addEventListener('logout', () => auth.signOut());
 
 export class Auth {
-  static Test() {
-    return 'test réussi';
-  }
   // static delete(callback) {
   //   state.auth
   //     .delete()
@@ -22,28 +25,27 @@ export class Auth {
   //   return auth.currentUser ? true : false;
   // }
 
-  // static login(login, password) {
-  //   auth
-  //     .signInWithEmailAndPassword(login, password)
-  //     // .then(() => {
-  //     //   callback({ sucess: true, text: 'Connexion réussie' });
-  //     // })
-  //     .catch(error => {
-  //       let text = 'Une erreur est survenue';
-  //       switch (error.code) {
-  //         case 'auth/network-request-failed':
-  //           text = 'Aucune connexion internet';
-  //           break;
-  //         case 'auth/user-not-found':
-  //           text = 'Le compte ' + login + " n'existe pas";
-  //           break;
-  //         case 'auth/wrong-password':
-  //           text = 'Mot de passe incorrect';
-  //           break;
-  //       }
-  //       alert(text);
-  //     });
-  // }
+  static login(login, password) {
+    auth.signInWithEmailAndPassword(login, password).catch(error => {
+      let text = 'Une erreur est survenue';
+      switch (error.code) {
+        case 'auth/network-request-failed':
+          text = 'Aucune connexion internet';
+          break;
+        case 'auth/user-not-found':
+          text = 'Le compte ' + login + " n'existe pas";
+          break;
+        case 'auth/wrong-password':
+          text = 'Mot de passe incorrect';
+          break;
+      }
+      alert(text);
+    });
+  }
+
+  static logout() {
+    auth.signOut();
+  }
 
   // static updateEmail(email, callback) {
   //   state.auth

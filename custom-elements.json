@@ -7,23 +7,27 @@
       "attributes": [
         {
           "name": "login",
-          "type": "string"
+          "type": "string",
+          "default": "\"\""
         },
         {
           "name": "password",
-          "type": "string"
+          "type": "string",
+          "default": "\"\""
         }
       ],
       "properties": [
         {
           "name": "login",
           "attribute": "login",
-          "type": "string"
+          "type": "string",
+          "default": "\"\""
         },
         {
           "name": "password",
           "attribute": "password",
-          "type": "string"
+          "type": "string",
+          "default": "\"\""
         }
       ],
       "events": [
